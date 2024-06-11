@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    background-color: limegreen;
+    padding: 10px;
+}
+
+img{
+    opacity: 0.1;
+}
+
+img:hover{
+opacity: 1;
+    transition: 1s ease-in;
+}
+p:hover{
+    box-sizing: 0 5px 5 px 5px;
+    background-color: lawngreen;
+    color: red;
+    font-size: 35px ;
+    transition: 1s ease-in;
+}
+.p1:hover{
+    box-shadow: 0 5px 5px 5px ;
+    background-color: lawngreen;
+    color: red;
+    font-size: 35px;
+    transition: 1s ease-in;
+}
